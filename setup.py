@@ -12,7 +12,7 @@ with open('HISTORY.rst') as history_file:
 requirements = [
     'Click>=6.0',
     # TODO: put package requirements here
-    'api-defs==0.0.1',
+    'api-domain==0.0.1',
     'Eve==0.6.4',
 ]
 

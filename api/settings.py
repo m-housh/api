@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import os
-import api_defs
+import api_domain
 
 # Get mongo setup stuff from the environment or use the defaults
 # if not present.
@@ -44,4 +44,4 @@ INFO = '_info'
 URL_PREFIX = 'api'
 
 # load the domain from api_defs
-DOMAIN = api_defs.domain()
+DOMAIN = api_domain.domain()

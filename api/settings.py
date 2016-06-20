@@ -9,7 +9,7 @@ MONGO_HOST = os.environ.get('MONGO_HOST', 'mongo')
 MONGO_PORT = os.environ.get('MONGO_PORT', '27017')
 MONGO_DBNAME = os.environ.get('MONGO_DBNAME', 'api')
 MONGO_USERNAME = os.environ.get('MONGO_USERNAME', 'api')
-MONGO_PASSWORD = os.environ.get('MONGO_PASSWORD', 'Mjh063079')
+MONGO_PASSWORD = os.environ.get('MONGO_PASSWORD', 'password')
 MONGO_AUTHDBNAME = os.environ.get('MONGO_AUTHDBNAME', 'api')
 
 # build the mongo uri

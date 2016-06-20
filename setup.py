@@ -22,7 +22,7 @@ test_requirements = [
 
 setup(
     name='api',
-    version='0.0.1',
+    version='0.1.0',
     description="Main entrypoint for HHE's api.",
     long_description=readme + '\n\n' + history,
     author="Michael Housh",
